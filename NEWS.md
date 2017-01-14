@@ -1,3 +1,12 @@
+# binman 0.1.0
+
+* Add verbose argument to process_yaml.
+* Moved semantic versioning to seperate package
+
+# binman 0.0.8
+
+* Add semantic version parsing.
+
 # binman 0.0.6
 
 * Added a vignette on basic functionality of binman.

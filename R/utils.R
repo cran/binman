@@ -41,6 +41,37 @@ get_os <- function (){
   }
 }
 
-list_appfiles <- function(appname){
+#' @name parse_version
+#' @rdname parse_version
+#' @importFrom semver parse_version
+#' @keywords internal
+#' @export
+semver::parse_version
 
-}
+#' @name render_version
+#' @rdname render_version
+#' @importFrom semver render_version
+#' @keywords internal
+#' @export
+semver::render_version
+
+#' @name set_version
+#' @rdname set_version
+#' @importFrom semver set_version
+#' @keywords internal
+#' @export
+semver::set_version
+
+#' @name reset_version
+#' @rdname reset_version
+#' @importFrom semver reset_version
+#' @keywords internal
+#' @export
+semver::reset_version
+
+#' @name increment_version
+#' @rdname increment_version
+#' @importFrom semver increment_version
+#' @keywords internal
+#' @export
+semver::increment_version
